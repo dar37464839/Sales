@@ -72,6 +72,7 @@ namespace Sales.API.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
+        
         // POST: api/Products
         [ResponseType(typeof(Product))]
         public async Task<IHttpActionResult> PostProduct(Product product)
